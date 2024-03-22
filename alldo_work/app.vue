@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 // You might choose this based on an API call or logged-in status
 import AppAlert from "~/components/AppAlert.vue";
 // const layout = "custom";
@@ -6,9 +6,11 @@ import AppAlert from "~/components/AppAlert.vue";
 
 <template>
     <NuxtLayout>
-        <NuxtPage />
+        <NuxtPage/>
     </NuxtLayout>
     <AppAlert>
-        This is an auto-imported component.
+        我是自动输入组件.
+        <br>
+        another one!
     </AppAlert>
 </template>
