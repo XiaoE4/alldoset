@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --html-bg-text-hover: rgba(98, 106, 239, 0.6);
+}
+
+/* theme>>>light */
+html {
+    --html-bg-color: #FFFFFF;
+    --html-text-color: #606266;
+}
+
+/* theme>>>dark */
+html.dark {
+    --html-bg-color: #141414;
+    --html-text-color: #CFD3DC;
+}

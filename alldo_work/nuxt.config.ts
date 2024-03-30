@@ -7,9 +7,13 @@ export default defineNuxtConfig({
 		'@vueuse/nuxt',
 		'@ant-design-vue/nuxt'
 	],
+	typescript: {
+		strict: true
+	},
 	css: [
 		'element-plus/dist/index.css',
-		'~/style.css'
+		'~/style.css',
+		'ant-design-vue/dist/reset.css'
 	],
-	elementPlus: { /** Options */}
+	elementPlus: { /** Options */},
 })

@@ -1,3 +1,4 @@
+<!--
 <script lang="ts" setup>
 // You might choose this based on an API call or logged-in status
 import AppAlert from "~/components/AppAlert.vue";
@@ -13,4 +14,28 @@ import AppAlert from "~/components/AppAlert.vue";
         <br>
         another one!
     </AppAlert>
+</template>-->
+
+<script setup>
+useSeoMeta({
+	title: 'Meet Nuxt',
+	description: 'The Intuitive Vue Framework.'
+})
+
+
+</script>
+
+<template>
+	<div id="app">
+		<NuxtLayout>
+			<NuxtPage/>
+		</NuxtLayout>
+	</div>
 </template>
+
+<style>
+#app {
+	color: #00DC82;
+}
+</style>
+
