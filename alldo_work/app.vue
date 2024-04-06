@@ -16,7 +16,7 @@ import AppAlert from "~/components/AppAlert.vue";
     </AppAlert>
 </template>-->
 
-<script setup>
+<script setup lang="ts">
 useSeoMeta({
 	title: 'Meet Nuxt',
 	description: 'The Intuitive Vue Framework.'

@@ -3,7 +3,7 @@
 		:model-value="!isDark"
 		size="large"
 		inline-prompt
-		style="--el-switch-on-color: #F2F2F2; --el-switch-off-color: #2C2C2C;"
+		style="--el-switch-on-color: #F2F2F2; --el-switch-off-color: #2C2C2C;--el-color-white: var(--html-text-color);"
 		active-text="明亮"
 		inactive-text="暗夜"
 		:active-action-icon="Sunny"

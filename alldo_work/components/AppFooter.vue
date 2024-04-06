@@ -1,7 +1,5 @@
 <template>
-	<div class="footer">
-		<span>我是底部栏</span>
-	</div>
+	<span>我是底部栏</span>
 	<el-button-group>
 		<el-button type="primary" :icon="ArrowLeft">Previous Page</el-button>
 		<el-button type="primary">
@@ -29,9 +27,5 @@ import {
 </script>
 
 <style scoped>
-.footer{
-	background-color: gold;
-	width: 100%;
-	height: 25px;
-}
+
 </style>
