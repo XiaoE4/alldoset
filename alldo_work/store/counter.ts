@@ -70,7 +70,7 @@ export let useAppStore = defineStore('appID', {
 			user: {id: 0, name: '', email: '', password: ''},
 			theme: '',
 			appState: 'web',
-			menuOpen: true
+			menuOpen: false
 		}
 	}
 })

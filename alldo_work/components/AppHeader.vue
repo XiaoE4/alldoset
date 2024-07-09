@@ -1,8 +1,8 @@
 <template>
 	<div>
-		<div class="Z-header-control">
+		<el-button text class="Z-header-control">
 			<MenuControl />
-		</div>
+		</el-button>
 		我是顶部导航栏
 		<Theme />
 	</div>
@@ -16,7 +16,8 @@ import MenuControl from "~/components/AllDo/MenuControl.vue";
 
 <style scoped>
 .Z-header-control{
-	width: 200px;
+	width: 50px;
+	margin-right: 150px;
 	height: 50px;
 	float: left;
 }
